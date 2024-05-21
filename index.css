@@ -1,0 +1,32 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(35, 15, 54);
+  color: azure;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-control {
+  background-color: transparent;
+  border: solid 0.2px rgba(230, 230, 250, 0.358);
+  color: aliceblue;
+}
+textarea {
+  resize: none;
+}
+#updateBtn,
+#cancelUpdate,
+.nameAlert,
+.categoryAlert,
+.modelAlert {
+  display: none;
+}
+/* #cancelUpdate {
+  display: none;
+}
+.nameAlert {
+  display: none;
+} */
